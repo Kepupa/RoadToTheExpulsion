@@ -1,0 +1,9 @@
+create table if not exists mtype (
+	id_mtype serial  primary key not null,
+	title_mtype varchar(50)
+);
+
+INSERT INTO mtype (title_mtype) VALUES
+('Гранулы'),
+('Краски'),
+('Нитки');
